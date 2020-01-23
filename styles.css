@@ -8,3 +8,15 @@ html, body {
   margin: 55px auto;
   border: 2px solid black;
 }
+
+.grid {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: 1fr, 1fr, 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+  border: 1px solid black;
+}
