@@ -1,0 +1,10 @@
+html, body {
+  background: lightgrey;
+}
+
+.gridBox {
+  width: 600px;
+  height: 600px;
+  margin: 55px auto;
+  border: 2px solid black;
+}
